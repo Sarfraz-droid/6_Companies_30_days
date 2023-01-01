@@ -21,16 +21,12 @@ public:
             }
             else
                 mp1[s1[i]]++;
-            // mp2[s2[i]].push_back(i);
         }
 
         for (int i = 0; i < n; i++)
         {
-            if (s1[i] == s2[i])
-                continue;
-            else
+            if (s1[i] != s2[i])
             {
-                // cout<<s2[i]<<" "<<mp1[s2[i]].size()<<endl;
                 if (mp1[s2[i]] != 0)
                 {
                     c++;
