@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.ejs": "html",
+		"*.jsx": "javascriptreact",
+		"unordered_map": "cpp"
+	}
+}
